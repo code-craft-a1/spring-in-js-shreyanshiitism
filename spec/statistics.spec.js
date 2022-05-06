@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const getStatistics=require("../app/statistics");
 describe("StatisticsTest",function(){
     it("reportsAverageMinMaxx",function(){
@@ -42,12 +41,3 @@ describe("StatisticsTest",function(){
         
     }) 
 })
-=======
-const addFun=require("../app/statistics");
-describe("First Unit Test Case",function(){
-    it("Sample Test",function(){
-        const result=addFun(10,20);
-        expect(result).toBe(30);
-    })
-})
->>>>>>> fd6829ba89f8226f1f6f5e0b319fe945991475d8
