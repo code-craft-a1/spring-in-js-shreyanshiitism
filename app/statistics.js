@@ -1,3 +1,5 @@
-module.exports=function add(x,y){
-    return x+y;
+module.exports=function getStatistics(numbers){
+    
+    //implement the computation of statistics here
 }
+
