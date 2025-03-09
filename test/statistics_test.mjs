@@ -6,8 +6,8 @@ describe('Statistics', () => {
         const computedStats = computeStatistics([1.5, 8.9, 3.2, 4.5]);
         const epsilon = 0.001;
         expect(computedStats.average).to.be.closeTo(4.525, epsilon);
-        expect(computedStats.min).to.be.closeTo(1.5);
-        expect(computedStats.max).to.be.closeTo(8.9);
+        expect(computedStats.min).to.be.closeTo(1.5, epsilon);
+        expect(computedStats.max).to.be.closeTo(8.9, epsilon);
     });
     it('reports NaN for empty input', () => {
         const computedStats = computeStatistics([]);
