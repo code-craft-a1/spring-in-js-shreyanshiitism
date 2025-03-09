@@ -1,20 +1,13 @@
 {
-  "name": "modular",
+  "name": "statisact",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Here we compute statistics for a bunch of numbers.",
   "scripts": {
-    "test": "jasmine-node spec --verbose",
-    "start": "node app/checker.js"
+    "test": "npx mocha"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/utthunga-tech/modular-js.git"
-  },
-  "author": "venu",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/utthunga-tech/modular-js/issues"
-  },
-  "homepage": "https://github.com/utthunga-tech/modular-js#readme"
+  "type": "module",
+  "devDependencies": {
+    "chai": "^5.2.0",
+    "mocha": "^11.1.0"
+  }
 }
